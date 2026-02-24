@@ -1,0 +1,7 @@
+import "./main.js"
+import "../components/header.js"
+import "../components/aboutMe.js"
+import "../components/footer.js"
+import "../components/project.js"
+import "../components/skilles.js"
+import "../components/slider.js"

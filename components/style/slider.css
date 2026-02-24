@@ -1,0 +1,109 @@
+.hero_slider {
+  background-color: #093f84e3;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  padding: 50px 20px;
+  color: #ffffff;
+}
+
+.hero_container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+}
+
+/* Left Side Styles */
+.hero_left {
+  flex: 1;
+  text-align: center;
+}
+
+.profile_img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #00bbf0;
+  margin-bottom: 20px;
+}
+
+.hero_left h1 {
+  font-size: 3.5rem;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.hero_left h1 span {
+  color: #00bbf0;
+}
+
+/* Right Side Styles */
+.hero_right {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 15px;
+  position: relative;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slide_content {
+  display: none; /* Hidden by default */
+}
+
+.slide_content.active {
+  display: block; /* Show active one */
+}
+
+.slide_content h3 {
+  font-size: 2rem;
+  color: #00bbf0;
+  margin-bottom: 15px;
+}
+
+.slide_content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #d1d1d1;
+}
+
+/* Dots Navigation */
+.slider_nav {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+.nav_dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav_dot.active {
+  background: #00bbf0;
+  width: 30px; /* Longer pill shape for active */
+  border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero_container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero_right {
+    width: 100%;
+  }
+}

@@ -1,0 +1,84 @@
+.info_section {
+  background-color: #00204a;
+  color: #ffffff;
+  padding: 60px 20px;
+}
+
+/* This replaces the Bootstrap 'row' and 'container' */
+.footer_container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; /* Allows columns to stack on mobile */
+  gap: 40px; /* Space between columns */
+  justify-content: space-between;
+}
+
+.footer_column {
+  flex: 1; /* Makes columns equal width */
+  min-width: 200px; /* Prevents columns from getting too squashed */
+}
+
+.footer_column h4 {
+  color: #00bbf0;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+/* Link Styling */
+.contact_links a, .info_links a {
+  display: flex;
+  align-items: center;
+  color: #d1d1d1;
+  text-decoration: none;
+  margin-bottom: 12px;
+  transition: 0.3s;
+}
+
+.contact_links a i {
+  margin-right: 10px;
+  color: #00bbf0;
+}
+
+.contact_links a:hover {
+  color: #ffffff;
+  transform: translateX(5px);
+}
+
+/* Social Icons */
+.info_social {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.info_social a {
+  width: 35px;
+  height: 35px;
+  background: rgba(255,255,255,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+}
+
+/* Button style */
+.contactButton {
+  display: inline-block;
+  background: #00bbf0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Copyright Bar */
+.copyright_bar {
+  text-align: center;
+  padding: 20px;
+  background: #ffffff;
+  border-top: 1px solid #ddd;
+}
