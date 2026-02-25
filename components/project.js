@@ -6,7 +6,7 @@ class Projects extends HTMLElement {
         description: "It is a paint bucket with ingredients that can get mixed based on the ingrdients it posesses.",
         image: "../assets/images/paint_mixer.png",
         url: "https://stijnsepter.github.io/paint_mixer/",
-        tech: ["javascript", "Dom", "css", "html"]
+        tech: ["javascript", "DOM", "CSS", "HTML"]
       },
       {
         title: "Bubble Juggle",
@@ -16,18 +16,11 @@ class Projects extends HTMLElement {
         tech: ["Unity", "javascript", "audio-recording"]
       },
       {
-        title: "API Integration",
-        description: "A custom service that connects multiple third-party APIs to automate data processing.",
-        image: "../static/images/api_project.png",
-        url: "https://github.com/StijnSepter/api-repo",
-        tech: ["Python", "FastAPI", "PostgreSQL"]
-      },
-      {
-        title: "API Integration",
-        description: "A custom service that connects multiple third-party APIs to automate data processing.",
-        image: "../static/images/api_project.png",
-        url: "https://github.com/StijnSepter/api-repo",
-        tech: ["Python", "FastAPI", "PostgreSQL"]
+        title: "Portfolio",
+        description: "Here you can see the portfolio you are now on how it is made and how I made this project",
+        image: "../assets/images/portfolio.png",
+        url: "https://github.com/StijnSepter/portfolio_dom",
+        tech: ["javascript", "DOM", "HTML", "CSS"]
       },
       // Add more projects here easily!
     ];
