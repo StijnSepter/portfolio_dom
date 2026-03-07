@@ -1,23 +1,12 @@
 class Skilles extends HTMLElement {
   connectedCallback() {
+
     const skillItems = [
       {
-        title: "Python & Django",
+        title: "ApIs, Postman",
         description:
-          "Building robust back-end systems and APIs. Experienced in ORM and database management.",
+          "Building APIs using Express with compination of Typescript en Javascript and then testing them with Postman",
         icon: '<i class="fa-brands fa-python"></i>',
-      },
-      {
-        title: "Database Management",
-        description:
-          "Designing schemas and managing data using PostgreSQL and SQLite.",
-        icon: '<i class="fa-solid fa-database"></i>',
-      },
-      {
-        title: "Hardware & Linux",
-        description:
-          "Hosting applications on Raspberry Pi and managing servers via terminal.",
-        icon: '<i class="fa-brands fa-linux"></i>',
       },
       {
         title: "JavaScript",
@@ -25,6 +14,19 @@ class Skilles extends HTMLElement {
           "Creating interactive front-end components and handling DOM manipulation.",
         icon: '<i class="fa-brands fa-js"></i>',
       },
+      {
+        title: "Front-end",
+        description:
+          "I have a very good understanding about HTML and CSS to style a website",
+        icon: '<i class="fa-solid fa-html"></i>',
+      },
+      // {
+      //   title: "creating",
+      //   description:
+      //     "",
+      //   icon: '<i class="fa-brands fa-linux"></i>',
+      // },
+
     ];
 
     // 2. Generate the HTML for the grid
