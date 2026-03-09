@@ -3,7 +3,7 @@ class Skilles extends HTMLElement {
 
     const skillItems = [
       {
-        title: "ApIs, Postman",
+        title: "APIs, Postman",
         description:
           "Building APIs using Express with compination of Typescript en Javascript and then testing them with Postman",
         icon: '<i class="fa-brands fa-python"></i>',

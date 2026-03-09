@@ -64,14 +64,14 @@
 
 .slide_content h3 {
   font-size: 2rem;
-  color: #00bbf0;
+  color: #e2d6d6;
   margin-bottom: 15px;
 }
 
 .slide_content p {
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #d1d1d1;
+  color: #e2d6d6;
 }
 
 /* Dots Navigation */
