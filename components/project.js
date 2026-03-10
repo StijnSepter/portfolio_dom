@@ -22,7 +22,13 @@ class Projects extends HTMLElement {
         url: "https://github.com/StijnSepter/portfolio_dom",
         tech: ["javascript", "DOM", "HTML", "CSS"]
       },
-      // Add more projects here easily!
+      {
+        title: "Python web scrapper",
+        description: "This was a fun little project where I build a scrapper with the use of selenium webdriver to get data and put it into a google sheets file",
+        image: "../assets/images/scrapper_thing.png",
+        url: "https://github.com/StijnSepter/Scrapper",
+        tech: ["python", "xpath", "selenium"]
+      },
     ];
 
     const projectsHTML = projectList.map(project => `
@@ -45,15 +51,13 @@ class Projects extends HTMLElement {
 
     this.innerHTML = `
       <section class="projects_section" id="projects">
-        <div class="container">
           <div class="heading_container">
             <h2>A few <span>projects</span></h2>
-            <p>Here are some of my best projects from the past two years.</p>
+            <p>Here are some of my best projects from the past 3,5 years.</p>
           </div>
           <div class="projects_grid">
             ${projectsHTML}
           </div>
-        </div>
       </section>
     `;
   }

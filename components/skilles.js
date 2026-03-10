@@ -18,14 +18,14 @@ class Skilles extends HTMLElement {
         title: "Front-end",
         description:
           "I have a very good understanding about HTML and CSS to style a website",
-        icon: '<i class="fa-solid fa-html"></i>',
+        icon: '<i class="fa-solid fa-code"></i>',
       },
-      // {
-      //   title: "creating",
-      //   description:
-      //     "",
-      //   icon: '<i class="fa-brands fa-linux"></i>',
-      // },
+      {
+        title: "UML",
+        description:
+          "I know how to use and create class diagram, activity diagram and sequence diagram",
+        icon: '<i class="fa-solid fa-diagram-project"></i>',
+      },
 
     ];
 

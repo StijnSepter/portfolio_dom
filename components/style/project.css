@@ -1,5 +1,9 @@
+h2{
+  font-size: 2em;
+}
+
 .projects_section {
-  padding: 80px 20px;
+  padding: 80px 2.5rem;
   background-color: #f9f9f9;
 }
 
